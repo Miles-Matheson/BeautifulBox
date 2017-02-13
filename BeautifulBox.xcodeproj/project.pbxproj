@@ -9,12 +9,18 @@
 /* Begin PBXBuildFile section */
 		02854E121E51604300BEF781 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 02854E111E51604300BEF781 /* main.m */; };
 		02854E151E51604300BEF781 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 02854E141E51604300BEF781 /* AppDelegate.m */; };
-		02854E181E51604300BEF781 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02854E171E51604300BEF781 /* ViewController.m */; };
 		02854E1B1E51604300BEF781 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02854E191E51604300BEF781 /* Main.storyboard */; };
 		02854E1D1E51604300BEF781 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02854E1C1E51604300BEF781 /* Assets.xcassets */; };
 		02854E201E51604300BEF781 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02854E1E1E51604300BEF781 /* LaunchScreen.storyboard */; };
 		02854E2B1E51604300BEF781 /* BeautifulBoxTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 02854E2A1E51604300BEF781 /* BeautifulBoxTests.m */; };
 		02854E361E51604300BEF781 /* BeautifulBoxUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 02854E351E51604300BEF781 /* BeautifulBoxUITests.m */; };
+		02854E451E5160C400BEF781 /* BaseTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02854E441E5160C400BEF781 /* BaseTabBarController.m */; };
+		02854E481E5160EF00BEF781 /* BaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02854E471E5160EF00BEF781 /* BaseNavigationController.m */; };
+		02854E4C1E5163D600BEF781 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02854E4B1E5163D600BEF781 /* HomeViewController.m */; };
+		02854E4F1E51641300BEF781 /* ActivityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02854E4E1E51641300BEF781 /* ActivityViewController.m */; };
+		02854E521E51645600BEF781 /* ClassifyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02854E511E51645600BEF781 /* ClassifyViewController.m */; };
+		02854E551E51646E00BEF781 /* ShoppingCartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02854E541E51646E00BEF781 /* ShoppingCartViewController.m */; };
+		02854E581E51647A00BEF781 /* MineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02854E571E51647A00BEF781 /* MineViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +45,6 @@
 		02854E111E51604300BEF781 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		02854E131E51604300BEF781 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		02854E141E51604300BEF781 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		02854E161E51604300BEF781 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		02854E171E51604300BEF781 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		02854E1A1E51604300BEF781 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		02854E1C1E51604300BEF781 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		02854E1F1E51604300BEF781 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +55,20 @@
 		02854E311E51604300BEF781 /* BeautifulBoxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeautifulBoxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		02854E351E51604300BEF781 /* BeautifulBoxUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BeautifulBoxUITests.m; sourceTree = "<group>"; };
 		02854E371E51604300BEF781 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02854E431E5160C400BEF781 /* BaseTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTabBarController.h; sourceTree = "<group>"; };
+		02854E441E5160C400BEF781 /* BaseTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTabBarController.m; sourceTree = "<group>"; };
+		02854E461E5160EF00BEF781 /* BaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNavigationController.h; sourceTree = "<group>"; };
+		02854E471E5160EF00BEF781 /* BaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNavigationController.m; sourceTree = "<group>"; };
+		02854E4A1E5163D600BEF781 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		02854E4B1E5163D600BEF781 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		02854E4D1E51641300BEF781 /* ActivityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActivityViewController.h; sourceTree = "<group>"; };
+		02854E4E1E51641300BEF781 /* ActivityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActivityViewController.m; sourceTree = "<group>"; };
+		02854E501E51645600BEF781 /* ClassifyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClassifyViewController.h; sourceTree = "<group>"; };
+		02854E511E51645600BEF781 /* ClassifyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClassifyViewController.m; sourceTree = "<group>"; };
+		02854E531E51646E00BEF781 /* ShoppingCartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShoppingCartViewController.h; sourceTree = "<group>"; };
+		02854E541E51646E00BEF781 /* ShoppingCartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShoppingCartViewController.m; sourceTree = "<group>"; };
+		02854E561E51647A00BEF781 /* MineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineViewController.h; sourceTree = "<group>"; };
+		02854E571E51647A00BEF781 /* MineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,8 +121,17 @@
 			children = (
 				02854E131E51604300BEF781 /* AppDelegate.h */,
 				02854E141E51604300BEF781 /* AppDelegate.m */,
-				02854E161E51604300BEF781 /* ViewController.h */,
-				02854E171E51604300BEF781 /* ViewController.m */,
+				02854E4A1E5163D600BEF781 /* HomeViewController.h */,
+				02854E4B1E5163D600BEF781 /* HomeViewController.m */,
+				02854E4D1E51641300BEF781 /* ActivityViewController.h */,
+				02854E4E1E51641300BEF781 /* ActivityViewController.m */,
+				02854E501E51645600BEF781 /* ClassifyViewController.h */,
+				02854E511E51645600BEF781 /* ClassifyViewController.m */,
+				02854E531E51646E00BEF781 /* ShoppingCartViewController.h */,
+				02854E541E51646E00BEF781 /* ShoppingCartViewController.m */,
+				02854E561E51647A00BEF781 /* MineViewController.h */,
+				02854E571E51647A00BEF781 /* MineViewController.m */,
+				02854E491E51633F00BEF781 /* BaseController */,
 				02854E191E51604300BEF781 /* Main.storyboard */,
 				02854E1C1E51604300BEF781 /* Assets.xcassets */,
 				02854E1E1E51604300BEF781 /* LaunchScreen.storyboard */,
@@ -138,6 +165,17 @@
 				02854E371E51604300BEF781 /* Info.plist */,
 			);
 			path = BeautifulBoxUITests;
+			sourceTree = "<group>";
+		};
+		02854E491E51633F00BEF781 /* BaseController */ = {
+			isa = PBXGroup;
+			children = (
+				02854E431E5160C400BEF781 /* BaseTabBarController.h */,
+				02854E441E5160C400BEF781 /* BaseTabBarController.m */,
+				02854E461E5160EF00BEF781 /* BaseNavigationController.h */,
+				02854E471E5160EF00BEF781 /* BaseNavigationController.m */,
+			);
+			name = BaseController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,8 +311,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				02854E181E51604300BEF781 /* ViewController.m in Sources */,
+				02854E551E51646E00BEF781 /* ShoppingCartViewController.m in Sources */,
+				02854E481E5160EF00BEF781 /* BaseNavigationController.m in Sources */,
+				02854E4F1E51641300BEF781 /* ActivityViewController.m in Sources */,
+				02854E581E51647A00BEF781 /* MineViewController.m in Sources */,
 				02854E151E51604300BEF781 /* AppDelegate.m in Sources */,
+				02854E451E5160C400BEF781 /* BaseTabBarController.m in Sources */,
+				02854E521E51645600BEF781 /* ClassifyViewController.m in Sources */,
+				02854E4C1E5163D600BEF781 /* HomeViewController.m in Sources */,
 				02854E121E51604300BEF781 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
