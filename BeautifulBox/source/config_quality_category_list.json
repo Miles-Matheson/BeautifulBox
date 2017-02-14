@@ -1,0 +1,38 @@
+{
+    "data": [
+        {
+            "ad_config_key": "quality_ads_hot", 
+            "category_title": "\u70ed\u95e8", 
+            "flag_url": "http://7xkpsl.com2.z0.glb.qiniucdn.com/data/img/activity/tab_tag_hot.png", 
+            "has_new_tip_text": "\u4eb2\uff0c\u70ed\u5356\u7684\u5b9d\u8d1d\u53c8\u591a\u4e86 #COUNT# \u4e2a\u54e6~", 
+            "price_display_mode": "selling_price", 
+            "type": "hot"
+        }, 
+        {
+            "ad_config_key": "quality_ads_new", 
+            "category_title": "\u4e0a\u65b0", 
+            "flag_url": null, 
+            "has_new_tip_text": "\u4eb2\uff0c\u4e0a\u65b0\u7684\u5b9d\u8d1d\u53c8\u591a\u4e86 #COUNT# \u4e2a\u54e6~", 
+            "price_display_mode": "selling_price", 
+            "type": "new"
+        }, 
+        {
+            "ad_config_key": "quality_ads_makeup", 
+            "category_title": "\u7f8e\u5986", 
+            "flag_url": null, 
+            "has_new_tip_text": "\u54c7\uff0c\u7f8e\u5986\u53c8\u6709\u65b0\u6b3e\u4e86~", 
+            "price_display_mode": "selling_price", 
+            "type": "makeup"
+        }, 
+        {
+            "ad_config_key": "quality_ads_cheap", 
+            "category_title": "\u6298\u6263", 
+            "flag_url": null, 
+            "has_new_tip_text": "\u4eb2\uff0c\u6253\u6298\u7684\u5b9d\u8d1d\u53c8\u591a\u4e86 #COUNT# \u4e2a\u54e6~", 
+            "price_display_mode": "original_price_and_selling_price", 
+            "type": "cheap"
+        }
+    ], 
+    "msg": "ok", 
+    "ret": 0
+}

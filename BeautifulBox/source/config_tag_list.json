@@ -1,0 +1,635 @@
+{
+    "data": {
+        "max_selected_count": 20,
+        "tag_items": [
+            {
+                "content_items": [
+                    {
+                        "content_type": "banner_list",
+                        "request_url": "client/banner_list.php"
+                    },
+                    {
+                        "content_type": "sign_shake_like_area",
+                        "request_url": ""
+                    },
+                    {
+                        "content_type": "category_ranking_list",
+                        "request_url": "category/ranking_list.php"
+                    },
+                    {
+                        "content_type": "product_list",
+                        "request_parameters": [
+                            {
+                                "key": "type",
+                                "value": "choice"
+                            }
+                        ],
+                        "request_url": "product/quality.php"
+                    }
+                ],
+                "id": 1,
+                "is_default": true,
+                "is_fixed": true,
+                "is_new": false,
+                "tag_title": "\u63a8\u8350"
+            },
+            {
+                "content_items": [
+                    {
+                        "content_type": "product_list",
+                        "request_parameters": [
+                            {
+                                "key": "type",
+                                "value": "product"
+                            },
+                            {
+                                "key": "taobao_cid",
+                                "value": "1427781499"
+                            },
+                            {
+                                "key": "keyword",
+                                "value": "\u9752\u6625"
+                            },
+                            {
+                                "key": "method",
+                                "value": "2"
+                            },
+                            {
+                                "key": "sort",
+                                "value": "7"
+                            }
+                        ],
+                        "request_url": "search/search.php"
+                    }
+                ],
+                "id": 1427781499,
+                "is_default": true,
+                "is_fixed": false,
+                "is_new": false,
+                "tag_title": "\u9752\u6625"
+            },
+            {
+                "content_items": [
+                    {
+                        "content_type": "product_list",
+                        "request_parameters": [
+                            {
+                                "key": "type",
+                                "value": "product"
+                            },
+                            {
+                                "key": "taobao_cid",
+                                "value": "1427781513"
+                            },
+                            {
+                                "key": "keyword",
+                                "value": "\u6dd1\u5973"
+                            },
+                            {
+                                "key": "method",
+                                "value": "2"
+                            },
+                            {
+                                "key": "sort",
+                                "value": "7"
+                            }
+                        ],
+                        "request_url": "search/search.php"
+                    }
+                ],
+                "id": 1427781513,
+                "is_default": true,
+                "is_fixed": false,
+                "is_new": false,
+                "tag_title": "\u6dd1\u5973"
+            },
+            {
+                "content_items": [
+                    {
+                        "content_type": "product_list",
+                        "request_parameters": [
+                            {
+                                "key": "type",
+                                "value": "product"
+                            },
+                            {
+                                "key": "taobao_cid",
+                                "value": "1427781632"
+                            },
+                            {
+                                "key": "keyword",
+                                "value": "\u5973\u978b"
+                            },
+                            {
+                                "key": "method",
+                                "value": "2"
+                            },
+                            {
+                                "key": "sort",
+                                "value": "7"
+                            }
+                        ],
+                        "request_url": "search/search.php"
+                    }
+                ],
+                "id": 1427781632,
+                "is_default": true,
+                "is_fixed": false,
+                "is_new": false,
+                "tag_title": "\u5973\u978b"
+            },
+            {
+                "content_items": [
+                    {
+                        "content_type": "product_list",
+                        "request_parameters": [
+                            {
+                                "key": "type",
+                                "value": "product"
+                            },
+                            {
+                                "key": "taobao_cid",
+                                "value": "1427781662"
+                            },
+                            {
+                                "key": "keyword",
+                                "value": "\u914d\u9970"
+                            },
+                            {
+                                "key": "method",
+                                "value": "2"
+                            },
+                            {
+                                "key": "sort",
+                                "value": "7"
+                            }
+                        ],
+                        "request_url": "search/search.php"
+                    }
+                ],
+                "id": 1427781662,
+                "is_default": true,
+                "is_fixed": false,
+                "is_new": false,
+                "tag_title": "\u914d\u9970"
+            },
+            {
+                "content_items": [
+                    {
+                        "content_type": "product_list",
+                        "request_parameters": [
+                            {
+                                "key": "type",
+                                "value": "product"
+                            },
+                            {
+                                "key": "taobao_cid",
+                                "value": "1427781643"
+                            },
+                            {
+                                "key": "keyword",
+                                "value": "\u5973\u5305"
+                            },
+                            {
+                                "key": "method",
+                                "value": "2"
+                            },
+                            {
+                                "key": "sort",
+                                "value": "7"
+                            }
+                        ],
+                        "request_url": "search/search.php"
+                    }
+                ],
+                "id": 1427781643,
+                "is_default": true,
+                "is_fixed": false,
+                "is_new": false,
+                "tag_title": "\u5973\u5305"
+            },
+            {
+                "content_items": [
+                    {
+                        "content_type": "product_list",
+                        "request_parameters": [
+                            {
+                                "key": "type",
+                                "value": "product"
+                            },
+                            {
+                                "key": "taobao_cid",
+                                "value": "1427781722"
+                            },
+                            {
+                                "key": "keyword",
+                                "value": "\u6cf3\u88c5"
+                            },
+                            {
+                                "key": "method",
+                                "value": "2"
+                            },
+                            {
+                                "key": "sort",
+                                "value": "7"
+                            }
+                        ],
+                        "request_url": "search/search.php"
+                    }
+                ],
+                "id": 1427781722,
+                "is_default": true,
+                "is_fixed": false,
+                "is_new": false,
+                "tag_title": "\u6cf3\u88c5"
+            },
+            {
+                "content_items": [
+                    {
+                        "content_type": "product_list",
+                        "request_parameters": [
+                            {
+                                "key": "type",
+                                "value": "product"
+                            },
+                            {
+                                "key": "taobao_cid",
+                                "value": "1427781729"
+                            },
+                            {
+                                "key": "keyword",
+                                "value": "\u5185\u8863"
+                            },
+                            {
+                                "key": "method",
+                                "value": "2"
+                            },
+                            {
+                                "key": "sort",
+                                "value": "7"
+                            }
+                        ],
+                        "request_url": "search/search.php"
+                    }
+                ],
+                "id": 1427781729,
+                "is_default": true,
+                "is_fixed": false,
+                "is_new": false,
+                "tag_title": "\u5185\u8863"
+            },
+            {
+                "content_items": [
+                    {
+                        "content_type": "product_list",
+                        "request_parameters": [
+                            {
+                                "key": "type",
+                                "value": "product"
+                            },
+                            {
+                                "key": "taobao_cid",
+                                "value": "1427781712"
+                            },
+                            {
+                                "key": "keyword",
+                                "value": "\u5a5a\u793c"
+                            },
+                            {
+                                "key": "method",
+                                "value": "2"
+                            },
+                            {
+                                "key": "sort",
+                                "value": "7"
+                            }
+                        ],
+                        "request_url": "search/search.php"
+                    }
+                ],
+                "id": 1427781712,
+                "is_default": true,
+                "is_fixed": false,
+                "is_new": false,
+                "tag_title": "\u5a5a\u793c"
+            },
+            {
+                "content_items": [
+                    {
+                        "content_type": "product_list",
+                        "request_parameters": [
+                            {
+                                "key": "type",
+                                "value": "product"
+                            },
+                            {
+                                "key": "taobao_cid",
+                                "value": "1427781524"
+                            },
+                            {
+                                "key": "keyword",
+                                "value": "\u5927\u7801"
+                            },
+                            {
+                                "key": "method",
+                                "value": "2"
+                            },
+                            {
+                                "key": "sort",
+                                "value": "7"
+                            }
+                        ],
+                        "request_url": "search/search.php"
+                    }
+                ],
+                "id": 1427781524,
+                "is_default": true,
+                "is_fixed": false,
+                "is_new": false,
+                "tag_title": "\u5927\u7801"
+            },
+            {
+                "content_items": [
+                    {
+                        "content_type": "product_list",
+                        "request_parameters": [
+                            {
+                                "key": "type",
+                                "value": "product"
+                            },
+                            {
+                                "key": "taobao_cid",
+                                "value": "1427781555"
+                            },
+                            {
+                                "key": "keyword",
+                                "value": "\u8001\u516c"
+                            },
+                            {
+                                "key": "method",
+                                "value": "2"
+                            },
+                            {
+                                "key": "sort",
+                                "value": "7"
+                            }
+                        ],
+                        "request_url": "search/search.php"
+                    }
+                ],
+                "id": 1427781555,
+                "is_default": true,
+                "is_fixed": false,
+                "is_new": false,
+                "tag_title": "\u8001\u516c"
+            },
+            {
+                "content_items": [
+                    {
+                        "content_type": "product_list",
+                        "request_parameters": [
+                            {
+                                "key": "type",
+                                "value": "product"
+                            },
+                            {
+                                "key": "taobao_cid",
+                                "value": "1427781533"
+                            },
+                            {
+                                "key": "keyword",
+                                "value": "\u5988\u5988"
+                            },
+                            {
+                                "key": "method",
+                                "value": "2"
+                            },
+                            {
+                                "key": "sort",
+                                "value": "7"
+                            }
+                        ],
+                        "request_url": "search/search.php"
+                    }
+                ],
+                "id": 1427781533,
+                "is_default": true,
+                "is_fixed": false,
+                "is_new": false,
+                "tag_title": "\u5988\u5988"
+            },
+            {
+                "content_items": [
+                    {
+                        "content_type": "product_list",
+                        "request_parameters": [
+                            {
+                                "key": "type",
+                                "value": "product"
+                            },
+                            {
+                                "key": "taobao_cid",
+                                "value": "1427781544"
+                            },
+                            {
+                                "key": "keyword",
+                                "value": "\u7238\u7238"
+                            },
+                            {
+                                "key": "method",
+                                "value": "2"
+                            },
+                            {
+                                "key": "sort",
+                                "value": "7"
+                            }
+                        ],
+                        "request_url": "search/search.php"
+                    }
+                ],
+                "id": 1427781544,
+                "is_default": true,
+                "is_fixed": false,
+                "is_new": false,
+                "tag_title": "\u7238\u7238"
+            },
+            {
+                "content_items": [
+                    {
+                        "content_type": "product_list",
+                        "request_parameters": [
+                            {
+                                "key": "type",
+                                "value": "product"
+                            },
+                            {
+                                "key": "taobao_cid",
+                                "value": "1428484406"
+                            },
+                            {
+                                "key": "keyword",
+                                "value": "\u5b55\u5987"
+                            },
+                            {
+                                "key": "method",
+                                "value": "2"
+                            },
+                            {
+                                "key": "sort",
+                                "value": "7"
+                            }
+                        ],
+                        "request_url": "search/search.php"
+                    }
+                ],
+                "id": 1428484406,
+                "is_default": true,
+                "is_fixed": false,
+                "is_new": false,
+                "tag_title": "\u5b55\u5987"
+            },
+            {
+                "content_items": [
+                    {
+                        "content_type": "product_list",
+                        "request_parameters": [
+                            {
+                                "key": "type",
+                                "value": "product"
+                            },
+                            {
+                                "key": "taobao_cid",
+                                "value": "1427781566"
+                            },
+                            {
+                                "key": "keyword",
+                                "value": "\u7537\u5b69"
+                            },
+                            {
+                                "key": "method",
+                                "value": "2"
+                            },
+                            {
+                                "key": "sort",
+                                "value": "7"
+                            }
+                        ],
+                        "request_url": "search/search.php"
+                    }
+                ],
+                "id": 1427781566,
+                "is_default": true,
+                "is_fixed": false,
+                "is_new": false,
+                "tag_title": "\u7537\u5b69"
+            },
+            {
+                "content_items": [
+                    {
+                        "content_type": "product_list",
+                        "request_parameters": [
+                            {
+                                "key": "type",
+                                "value": "product"
+                            },
+                            {
+                                "key": "taobao_cid",
+                                "value": "1427873847"
+                            },
+                            {
+                                "key": "keyword",
+                                "value": "\u5973\u5b69"
+                            },
+                            {
+                                "key": "method",
+                                "value": "2"
+                            },
+                            {
+                                "key": "sort",
+                                "value": "7"
+                            }
+                        ],
+                        "request_url": "search/search.php"
+                    }
+                ],
+                "id": 1427873847,
+                "is_default": true,
+                "is_fixed": false,
+                "is_new": false,
+                "tag_title": "\u5973\u5b69"
+            },
+            {
+                "content_items": [
+                    {
+                        "content_type": "product_list",
+                        "request_parameters": [
+                            {
+                                "key": "type",
+                                "value": "product"
+                            },
+                            {
+                                "key": "taobao_cid",
+                                "value": "1427786347"
+                            },
+                            {
+                                "key": "keyword",
+                                "value": "\u751f\u6d3b"
+                            },
+                            {
+                                "key": "method",
+                                "value": "2"
+                            },
+                            {
+                                "key": "sort",
+                                "value": "7"
+                            }
+                        ],
+                        "request_url": "search/search.php"
+                    }
+                ],
+                "id": 1427786347,
+                "is_default": true,
+                "is_fixed": false,
+                "is_new": false,
+                "tag_title": "\u751f\u6d3b"
+            },
+            {
+                "content_items": [
+                    {
+                        "content_type": "product_list",
+                        "request_parameters": [
+                            {
+                                "key": "type",
+                                "value": "product"
+                            },
+                            {
+                                "key": "taobao_cid",
+                                "value": "1432023690"
+                            },
+                            {
+                                "key": "keyword",
+                                "value": "\u62a4\u80a4"
+                            },
+                            {
+                                "key": "method",
+                                "value": "2"
+                            },
+                            {
+                                "key": "sort",
+                                "value": "7"
+                            }
+                        ],
+                        "request_url": "search/search.php"
+                    }
+                ],
+                "id": 1432023690,
+                "is_default": true,
+                "is_fixed": false,
+                "is_new": false,
+                "tag_title": "\u62a4\u80a4"
+            }
+        ]
+    },
+    "msg": "ok",
+    "ret": 0
+}

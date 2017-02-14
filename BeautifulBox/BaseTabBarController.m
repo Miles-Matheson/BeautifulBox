@@ -56,6 +56,8 @@
         
         UIViewController *controller = [NSClassFromString(itemDic[kClassName]) new];
         BaseNavigationController *nav = [[BaseNavigationController alloc]initWithRootViewController:controller];
+//        nav.navigationBar.backgroundColor = [UIColor yellowColor];
+        nav.navigationBar.barTintColor = [UIColor redColor];
         UITabBarItem  *tabBarItem  = nav.tabBarItem;
         tabBarItem.title = itemDic[kClassTitle];
         [tabBarItem setTitleTextAttributes:@{NSForegroundColorAttributeName:[UIColor redColor]}forState:UIControlStateSelected];

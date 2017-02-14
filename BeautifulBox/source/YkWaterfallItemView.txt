@@ -1,0 +1,79 @@
+// beautymall
+#import "Comment.h"
+#import "YkWaterfallItemView.h"
+
+@interface MessageMycmtItemView : YkWaterfallItemView
+
+
++(NSNumber*) measureHeight:(Comment*)comment waterfall:(YkWaterfallView*)waterfall;
+@end
+
+
+
+
+
+// beautymall
+#import "R.h"
+#import "mcf.h"
+#import "MessageMycmtItemView.h"
+
+@interface MessageMycmtItemView()
+
+@end
+
+
+
+@implementation MessageMycmtItemView
+
+-(void) dealloc
+{
+    [super dealloc];
+}
+
+- (id)initWithFrame:(CGRect)frame
+{
+    self = [super initWithFrame:frame];
+    if (self) {
+        // Initialization code
+        [self privateInit];
+    }
+    return self;
+}
+
+-(void) privateInit
+{
+    if (self.bInited) {
+        return;
+    }
+    
+
+    self.reAdjustLayout_whenFrameChanged = TRUE;
+    [self reAdjustLayout];
+    self.bInited = TRUE;
+}
+
+-(void) setDataToView:(YkWaterfallLineData*)linedata
+{
+    
+}
+
+-(void) reAdjustLayout
+{
+}
+
+/*
+// Only override drawRect: if you perform custom drawing.
+// An empty implementation adversely affects performance during animation.
+- (void)drawRect:(CGRect)rect
+{
+    // Drawing code
+}
+*/
+
++(NSNumber*) measureHeight:(Comment*)comment waterfall:(YkWaterfallView*)waterfall
+{
+    return [NSNumber numberWithFloat:200];
+}
+
+@end
+

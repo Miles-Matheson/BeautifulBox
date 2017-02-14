@@ -1,0 +1,16 @@
+//
+//  PrefixHeader.pch
+//  BeautifulBox
+//
+//  Created by Miles on 17/2/13.
+//  Copyright © 2017年 Miles. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import "Header.h"
+#define ScreenWidth [UIScreen mainScreen].bounds.size.width
+#define ScreenHeight [UIScreen mainScreen].bounds.size.height
+
+#endif /* PrefixHeader_pch */
